@@ -31,8 +31,9 @@ const dispatch =useDispatch();
             }
             
             </div>
-            <div className="remove">
-                <button onClick={()=>dispatch(removeTodo())}>Clear All</button>
+            <div className="showItems">
+              <button className= "btn effect04" data-sm-link-test="Remove All"
+               onClick={()=>dispatch(removeTodo())}>-------ClearList-------</button>
             </div>
           </div>
         </div>
